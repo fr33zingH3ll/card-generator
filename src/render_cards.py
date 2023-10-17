@@ -4,26 +4,8 @@ import pathlib
 from PIL import Image, ImageFont, ImageDraw
 from util.text_formatter import TextFormatter
 
-from pokemon_content.flashcard_categs import FlashCardCategs
+from card_content.flashcard_categs import FlashCardCategs
 from mechanics.card import Card
-
-
-MONSTER_IMAGE_SCALE = 0.255
-MONSTER_IMAGE_SCALE_SQ = 0.355
-IDEAL_CARD_WIDTH = 390
-
-ABILITY_WIDTH = 370
-ABILITY_HEIGHT = 72
-ABILITY_COST_WIDTH = 76
-ABILITY_COST_GAP = 12
-ELEMENT_SIZE = 30
-ABILITY_GAP = 4
-POWER_WIDTH = 64
-
-STATUS_Y_POSITION = 568
-STATUS_X_GAP = 82
-STATUS_SIZE = 20
-
 
 def render_cards(card_json_path, output_path):
     new_card_render_path = pathlib.Path(output_path, "renders")
