@@ -1,0 +1,42 @@
+[
+    {
+        "index": 1,
+        "name": "Développement Mobile",
+        "question": "Qu'est-ce qu'une application mobile native ?",
+        "response": "Une application mobile native est conçue pour une plateforme spécifique, comme iOS ou Android, et est généralement développée en utilisant les ProgrammingLanguages natifs de cette plateforme.",
+        "categ": "MobileAppDevelopment",
+        "image_file": "MOBILE_APP_DEVELOPMENT"
+    },
+    {
+        "index": 2,
+        "name": "Développement Mobile",
+        "question": "Qu'est-ce qu'une application mobile hybride ?",
+        "response": "Une application mobile hybride combine des éléments de WebDevelopment avec des fonctionnalités natives pour fonctionner sur plusieurs plateformes.",
+        "categ": "MobileAppDevelopment",
+        "image_file": "MOBILE_APP_DEVELOPMENT"
+    },
+    {
+        "index": 3,
+        "name": "Développement Mobile",
+        "question": "Qu'est-ce qu'une API dans le contexte des applications mobiles ?",
+        "response": "Une API (Application Programming Interface) permet à une application de communiquer avec d'autres services ou applications, en fournissant des fonctionnalités prêtes à l'emploi.",
+        "categ": "MobileAppDevelopment",
+        "image_file": "MOBILE_APP_DEVELOPMENT"
+    },
+    {
+        "index": 4,
+        "name": "Développement Mobile",
+        "question": "Qu'est-ce que le responsive design en WebDevelopment mobile ?",
+        "response": "Le responsive design est une approche de conception qui permet à un site web de s'adapter automatiquement à différentes tailles d'écran, y compris les appareils mobiles.",
+        "categ": "MobileAppDevelopment",
+        "image_file": "MOBILE_APP_DEVELOPMENT"
+    },
+    {
+        "index": 5,
+        "name": "Développement Mobile",
+        "question": "Qu'est-ce que l'App Store d'Apple et Google Play Store ?",
+        "response": "L'App Store d'Apple et le Google Play Store sont des plateformes de distribution d'applications mobiles pour les appareils iOS et Android, respectivement.",
+        "categ": "MobileAppDevelopment",
+        "image_file": "MOBILE_APP_DEVELOPMENT"
+    }
+]

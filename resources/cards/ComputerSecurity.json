@@ -1,0 +1,42 @@
+[
+    {
+        "index": 1,
+        "name": "Sécurité Informatique",
+        "question": "Qu'est-ce qu'un logiciel malveillant ?",
+        "response": "Un logiciel malveillant (malware) est un logiciel conçu pour endommager ou accéder à un ordinateur sans autorisation.",
+        "categ": "ComputerSecurity",
+        "image_file": "COMPUTER_SECURITY"
+    },
+    {
+        "index": 2,
+        "name": "Sécurité Informatique",
+        "question": "Qu'est-ce qu'une authentification à deux facteurs (2FA) ?",
+        "response": "L'authentification à deux facteurs exige deux méthodes distinctes pour vérifier l'identité, comme un mot de passe et un code SMS.",
+        "categ": "ComputerSecurity",
+        "image_file": "COMPUTER_SECURITY"
+    },
+    {
+        "index": 3,
+        "name": "Sécurité Informatique",
+        "question": "Qu'est-ce qu'une attaque par phishing ?",
+        "response": "Une attaque par phishing est une tentative d'obtenir des informations personnelles en se faisant passer pour une source de confiance.",
+        "categ": "ComputerSecurity",
+        "image_file": "COMPUTER_SECURITY"
+    },
+    {
+        "index": 4,
+        "name": "Sécurité Informatique",
+        "question": "Qu'est-ce qu'une sauvegarde régulière ?",
+        "response": "Une sauvegarde régulière consiste à copier régulièrement des données importantes pour éviter leur perte en cas de problème.",
+        "categ": "ComputerSecurity",
+        "image_file": "COMPUTER_SECURITY"
+    },
+    {
+        "index": 5,
+        "name": "Sécurité Informatique",
+        "question": "Qu'est-ce qu'un pare-feu matériel ?",
+        "response": "Un pare-feu matériel est un dispositif de sécurité qui protège un réseau en filtrant le trafic à la frontière du réseau.",
+        "categ": "ComputerSecurity",
+        "image_file": "COMPUTER_SECURITY"
+    }
+]

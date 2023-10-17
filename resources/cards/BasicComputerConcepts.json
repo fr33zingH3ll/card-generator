@@ -1,0 +1,42 @@
+[
+    {
+        "index": 1,
+        "name": "Concepts Informatiques de Base",
+        "question": "Qu'est-ce que la RAM ?",
+        "response": "La RAM (Random Access Memory) est la mémoire vive de l'ordinateur utilisée pour stocker les données en cours d'utilisation.",
+        "categ": "BasicComputerConcepts",
+        "image_file": "BASIC_COMPUTER_CONCEPTS"
+    },
+    {
+        "index": 2,
+        "name": "Concepts Informatiques de Base",
+        "question": "Quelle est la différence entre un logiciel et un matériel informatique ?",
+        "response": "Le matériel informatique est physique, tandis que le logiciel est un ensemble d'instructions pour le matériel.",
+        "categ": "BasicComputerConcepts",
+        "image_file": "BASIC_COMPUTER_CONCEPTS"
+    },
+    {
+        "index": 3,
+        "name": "Concepts Informatiques de Base",
+        "question": "Qu'est-ce qu'un algorithme ?",
+        "response": "Un algorithme est une série d'étapes pour résoudre un problème ou effectuer une tâche.",
+        "categ": "BasicComputerConcepts",
+        "image_file": "BASIC_COMPUTER_CONCEPTS"
+    },
+    {
+        "index": 4,
+        "name": "Concepts Informatiques de Base",
+        "question": "Quelle est la différence entre un système d'exploitation 32 bits et 64 bits ?",
+        "response": "Les systèmes 64 bits peuvent gérer plus de mémoire que les systèmes 32 bits et sont généralement plus performants.",
+        "categ": "BasicComputerConcepts",
+        "image_file": "BASIC_COMPUTER_CONCEPTS"
+    },
+    {
+        "index": 5,
+        "name": "Concepts Informatiques de Base",
+        "question": "Qu'est-ce qu'une adresse IP ?",
+        "response": "Une adresse IP (Internet Protocol) est un identifiant unique attribué à chaque appareil connecté à un réseau.",
+        "categ": "BasicComputerConcepts",
+        "image_file": "BASIC_COMPUTER_CONCEPTS"
+    }
+]

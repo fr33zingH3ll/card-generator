@@ -1,0 +1,42 @@
+[
+    {
+        "index": 1,
+        "name": "Intelligence Artificielle et Apprentissage Automatique",
+        "question": "Qu'est-ce que l'intelligence artificielle (IA) ?",
+        "response": "L'intelligence artificielle est le domaine de l'informatique qui vise à créer des systèmes capables d'effectuer des tâches qui nécessitent généralement l'intelligence humaine.",
+        "categ": "ArtificialIntelligenceAndMachineLearning",
+        "image_file": "ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING"
+    },
+    {
+        "index": 2,
+        "name": "Intelligence Artificielle et Apprentissage Automatique",
+        "question": "Quelle est la différence entre l'apprentissage supervisé et l'apprentissage non supervisé ?",
+        "response": "L'apprentissage supervisé implique l'utilisation d'un ensemble de données étiqueté pour former un modèle, tandis que l'apprentissage non supervisé ne nécessite pas d'étiquettes dans les données d'entraînement.",
+        "categ": "ArtificialIntelligenceAndMachineLearning",
+        "image_file": "ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING"
+    },
+    {
+        "index": 3,
+        "name": "Intelligence Artificielle et Apprentissage Automatique",
+        "question": "Qu'est-ce qu'un réseau de neurones artificiels ?",
+        "response": "Un réseau de neurones artificiels est un modèle informatique inspiré du cerveau humain, utilisé pour résoudre des problèmes complexes d'apprentissage automatique.",
+        "categ": "ArtificialIntelligenceAndMachineLearning",
+        "image_file": "ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING"
+    },
+    {
+        "index": 4,
+        "name": "Intelligence Artificielle et Apprentissage Automatique",
+        "question": "Qu'est-ce qu'une régression en apprentissage automatique ?",
+        "response": "La régression est une technique d'apprentissage automatique utilisée pour prédire des valeurs numériques, comme les prix ou les scores, en fonction de variables d'entrée.",
+        "categ": "ArtificialIntelligenceAndMachineLearning",
+        "image_file": "ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING"
+    },
+    {
+        "index": 5,
+        "name": "Intelligence Artificielle et Apprentissage Automatique",
+        "question": "Qu'est-ce qu'une surajustement (overfitting) en apprentissage automatique ?",
+        "response": "Le surajustement se produit lorsque le modèle s'adapte trop précisément aux données d'entraînement mais ne généralise pas bien sur de nouvelles données.",
+        "categ": "ArtificialIntelligenceAndMachineLearning",
+        "image_file": "ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING"
+    }
+]

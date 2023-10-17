@@ -1,0 +1,42 @@
+[
+    {
+        "index": 1,
+        "name": "Langages de Programmation",
+        "question": "Qu'est-ce qu'une variable en programmation ?",
+        "response": "Une variable est un espace de mémoire utilisé pour stocker des données.",
+        "categ": "ProgrammingLanguages",
+        "image_file": "PROGRAMMING_LANGUAGES"
+    },
+    {
+        "index": 2,
+        "name": "Langages de Programmation",
+        "question": "Quelle est la différence entre Python 2 et Python 3 ?",
+        "response": "Python 3 est la version la plus récente et recommandée, avec des améliorations et des incompatibilités avec Python 2.",
+        "categ": "ProgrammingLanguages",
+        "image_file": "PROGRAMMING_LANGUAGES"
+    },
+    {
+        "index": 3,
+        "name": "Langages de Programmation",
+        "question": "Qu'est-ce qu'une boucle 'for' ?",
+        "response": "Une boucle 'for' est utilisée pour parcourir une séquence, comme une liste ou une chaîne de caractères, et exécuter une action pour chaque élément.",
+        "categ": "ProgrammingLanguages",
+        "image_file": "PROGRAMMING_LANGUAGES"
+    },
+    {
+        "index": 4,
+        "name": "Langages de Programmation",
+        "question": "Qu'est-ce qu'un langage interprété ?",
+        "response": "Un langage interprété est exécuté ligne par ligne par un interpréteur, sans besoin de compilation préalable.",
+        "categ": "ProgrammingLanguages",
+        "image_file": "PROGRAMMING_LANGUAGES"
+    },
+    {
+        "index": 5,
+        "name": "Langages de Programmation",
+        "question": "Qu'est-ce que le responsive design en WebDevelopment mobile ?",
+        "response": "Le responsive design est une approche de conception qui permet à un site web de s'adapter automatiquement à différentes tailles d'écran, y compris les appareils mobiles.",
+        "categ": "ProgrammingLanguages",
+        "image_file": "PROGRAMMING_LANGUAGES"
+    }
+]

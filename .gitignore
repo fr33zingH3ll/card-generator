@@ -1,0 +1,7 @@
+.env
+*.pyc
+/output
+__init__.py
+.DS_Store
+/samples
+readme.txt

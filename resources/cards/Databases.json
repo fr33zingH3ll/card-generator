@@ -1,0 +1,42 @@
+[
+    {
+        "index": 1,
+        "name": "Bases de Données",
+        "question": "Qu'est-ce qu'une clé primaire dans une base de données ?",
+        "response": "Une clé primaire est un attribut unique qui identifie de manière unique chaque enregistrement dans une table.",
+        "categ": "Databases",
+        "image_file": "DATABASES"
+    },
+    {
+        "index": 2,
+        "name": "Bases de Données",
+        "question": "Quelle est la différence entre une base de données relationnelle et une base de données NoSQL ?",
+        "response": "Les bases de données relationnelles utilisent des tables structurées, tandis que les bases de données NoSQL stockent les données de manière plus flexible.",
+        "categ": "Databases",
+        "image_file": "DATABASES"
+    },
+    {
+        "index": 3,
+        "name": "Bases de Données",
+        "question": "Qu'est-ce qu'une requête SQL ?",
+        "response": "Une requête SQL est une instruction pour interagir avec une base de données relationnelle.",
+        "categ": "Databases",
+        "image_file": "DATABASES"
+    },
+    {
+        "index": 4,
+        "name": "Bases de Données",
+        "question": "Qu'est-ce qu'une jointure (join) en SQL ?",
+        "response": "Une jointure combine des données de deux tables en fonction d'une condition spécifiée.",
+        "categ": "Databases",
+        "image_file": "DATABASES"
+    },
+    {
+        "index": 5,
+        "name": "Bases de Données",
+        "question": "Qu'est-ce qu'une base de données distribuée ?",
+        "response": "Une base de données distribuée est répartie sur plusieurs serveurs pour améliorer la performance et la disponibilité.",
+        "categ": "Databases",
+        "image_file": "DATABASES"
+    }
+]

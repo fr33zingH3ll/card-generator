@@ -1,0 +1,42 @@
+[
+    {
+        "index": 1,
+        "name": "Réseaux Informatiques",
+        "question": "Qu'est-ce qu'un pare-feu ?",
+        "response": "Un pare-feu est un dispositif de sécurité réseau qui filtre le trafic entrant et sortant pour protéger un réseau.",
+        "categ": "ComputerNetworks",
+        "image_file": "COMPUTER_NETWORKS"
+    },
+    {
+        "index": 2,
+        "name": "Réseaux Informatiques",
+        "question": "Quelle est la différence entre TCP et UDP ?",
+        "response": "TCP (Transmission Control Protocol) est fiable mais plus lent, tandis qu'UDP (User Datagram Protocol) est plus rapide mais moins fiable.",
+        "categ": "ComputerNetworks",
+        "image_file": "COMPUTER_NETWORKS"
+    },
+    {
+        "index": 3,
+        "name": "Réseaux Informatiques",
+        "question": "Qu'est-ce qu'une adresse MAC ?",
+        "response": "Une adresse MAC (Media Access Control) est un identifiant unique attribué à chaque carte réseau.",
+        "categ": "ComputerNetworks",
+        "image_file": "COMPUTER_NETWORKS"
+    },
+    {
+        "index": 4,
+        "name": "Réseaux Informatiques",
+        "question": "Qu'est-ce qu'un routeur ?",
+        "response": "Un routeur est un dispositif réseau qui dirige le trafic entre différents réseaux.",
+        "categ": "ComputerNetworks",
+        "image_file": "COMPUTER_NETWORKS"
+    },
+    {
+        "index": 5,
+        "name": "Réseaux Informatiques",
+        "question": "Quelle est la fonction du DNS ?",
+        "response": "Le DNS (Domain Name System) traduit les noms de domaine en adresses IP pour permettre la navigation sur Internet.",
+        "categ": "ComputerNetworks",
+        "image_file": "COMPUTER_NETWORKS"
+    }
+]

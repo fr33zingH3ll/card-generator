@@ -1,0 +1,42 @@
+[
+    {
+        "index": 1,
+        "name": "Matériel Informatique",
+        "question": "Qu'est-ce qu'un processeur (CPU) ?",
+        "response": "Le processeur est l'unité centrale de traitement d'un ordinateur, responsable de l'exécution des instructions et du calcul.",
+        "categ": "ComputerHardware",
+        "image_file": "COMPUTER_HARDWARE"
+    },
+    {
+        "index": 2,
+        "name": "Matériel Informatique",
+        "question": "Qu'est-ce qu'une carte graphique (GPU) ?",
+        "response": "La carte graphique est responsable du traitement des données visuelles et de l'affichage des images sur l'écran d'un ordinateur.",
+        "categ": "ComputerHardware",
+        "image_file": "COMPUTER_HARDWARE"
+    },
+    {
+        "index": 3,
+        "name": "Matériel Informatique",
+        "question": "Quelle est la différence entre un disque dur (HDD) et un disque SSD ?",
+        "response": "Un disque dur (HDD) utilise des plateaux rotatifs pour stocker des données, tandis qu'un disque SSD est entièrement électronique et plus rapide.",
+        "categ": "ComputerHardware",
+        "image_file": "COMPUTER_HARDWARE"
+    },
+    {
+        "index": 4,
+        "name": "Matériel Informatique",
+        "question": "Qu'est-ce qu'une carte mère ?",
+        "response": "La carte mère est la principale carte de circuit imprimé d'un ordinateur, connectant tous les composants matériels essentiels.",
+        "categ": "ComputerHardware",
+        "image_file": "COMPUTER_HARDWARE"
+    },
+    {
+        "index": 5,
+        "name": "Matériel Informatique",
+        "question": "Qu'est-ce que la mémoire RAM ?",
+        "response": "La mémoire RAM (Random Access Memory) est utilisée pour stocker temporairement les données que l'ordinateur est en train d'utiliser.",
+        "categ": "ComputerHardware",
+        "image_file": "COMPUTER_HARDWARE"
+    }
+]

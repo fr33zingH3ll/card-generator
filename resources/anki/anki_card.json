@@ -1,0 +1,17 @@
+[
+    {
+        "action": "addNote",
+        "version": 6,
+        "params": {
+            "note": {
+                "deckName": "nom du deck de carte",
+                "modelName": "la tu touche pas",
+                "fields": {
+                    "Front": "",
+                    "Back": ""
+                },
+                "tags": []
+            }
+        }
+    }
+]

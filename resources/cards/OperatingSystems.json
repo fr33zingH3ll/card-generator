@@ -1,0 +1,42 @@
+[
+    {
+        "index": 1,
+        "name": "Systèmes d'Exploitation",
+        "question": "Quel est le rôle d'un système d'exploitation ?",
+        "response": "Un système d'exploitation gère les ressources matérielles et les processus logiciels d'un ordinateur.",
+        "categ": "OperatingSystems",
+        "image_file": "OPERATING_SYSTEMS"
+    },
+    {
+        "index": 2,
+        "name": "Systèmes d'Exploitation",
+        "question": "Qu'est-ce qu'un noyau (kernel) de système d'exploitation ?",
+        "response": "Le noyau est la partie centrale du système d'exploitation qui communique avec le matériel.",
+        "categ": "OperatingSystems",
+        "image_file": "OPERATING_SYSTEMS"
+    },
+    {
+        "index": 3,
+        "name": "Systèmes d'Exploitation",
+        "question": "Quelle est la différence entre Windows et Linux ?",
+        "response": "Windows est un système d'exploitation propriétaire développé par Microsoft, tandis que Linux est un système d'exploitation open source.",
+        "categ": "OperatingSystems",
+        "image_file": "OPERATING_SYSTEMS"
+    },
+    {
+        "index": 4,
+        "name": "Systèmes d'Exploitation",
+        "question": "Qu'est-ce que la virtualisation ?",
+        "response": "La virtualisation permet d'exécuter plusieurs systèmes d'exploitation sur une même machine physique.",
+        "categ": "OperatingSystems",
+        "image_file": "OPERATING_SYSTEMS"
+    },
+    {
+        "index": 5,
+        "name": "Systèmes d'Exploitation",
+        "question": "Qu'est-ce que l'interface en ligne de commande (CLI) ?",
+        "response": "La CLI est une méthode d'interaction avec un ordinateur en utilisant des commandes textuelles.",
+        "categ": "OperatingSystems",
+        "image_file": "OPERATING_SYSTEMS"
+    }
+]
