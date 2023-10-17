@@ -7,6 +7,11 @@ from util.text_formatter import TextFormatter
 from card_content.flashcard_categs import FlashCardCategs
 from mechanics.card import Card
 
+
+OPTIONS = {}
+
+
+
 def render_cards(card_json_path, output_path):
     new_card_render_path = pathlib.Path(output_path, "renders")
     new_card_json_path = pathlib.Path(card_json_path, "cards")
@@ -26,55 +31,62 @@ def render_cards(card_json_path, output_path):
 
 def render_card(card: Card):
     print(f"Rendering {card.name}")
-    options = {
-        font_size_question: 36,
-        font_question: ImageFont.truetype("resources/font/Cabin-Bold.ttf", font_size_question),        
-    }
-    # Charger une police TrueType (TTF) avec la taille spécifiée
-    font_size_question = 36  # Taille de police (modifiable selon vos besoins)
-    font_question = ImageFont.truetype("resources/font/Cabin-Bold.ttf", font_size_question)
-    font_size_response = 30  # Taille de police (modifiable selon vos besoins)
-    font_response = ImageFont.truetype("resources/font/Cabin-Bold.ttf", font_size_response)
-    fontColor="white"
+    template = Image.open(f"resources/templates/{card.image_file}.png")
+    W, H = template.size
+    font_size_question = 36
+    font_size_name = 20
+    font_size_response = 30
+    init_options({
+        "w": W,
+        "h": H,
+        "font_color": "white",
+        "font_size_name": font_size_name,
+        "font_name": ImageFont.truetype("resources/font/Cabin-Bold.ttf", font_size_name),
+        "font_size_question": font_size_question,
+        "font_question": ImageFont.truetype("resources/font/Cabin-Bold.ttf", font_size_question),
+        "font_size_response": font_size_response,
+        "font_response": ImageFont.truetype("resources/font/Cabin-Bold.ttf", font_size_response)  
+    })
+    # Créer un objet ImageDraw pour dessiner sur l'image
+    draw_question = ImageDraw.Draw(template)
+
+    text_formater = TextFormatter(OPTIONS['w'], OPTIONS['font_size_response'])
     
-    # Charger le template PNG
-    template_question = Image.open(f"resources/templates/{card.image_file}.png")
-
-    # Créer un objet ImageDraw pour dessiner sur l'image
-    draw_question = ImageDraw.Draw(template_question)
-
-    # Obtenir les dimensions de l'image
-    W, H = template_question.size
-
-    text_formater = TextFormatter(W, font_size_response)
-
-    render_name(card, draw_question, )
-    # Texte de la question
-    question = card.question
-    _, _, w, h = draw_question.textbbox((0, 0), question, font=font_question)
-    position_question = ((W - w) / 2, (H - h) / 4)
-    draw_question.text(position_question, question, font=font_question, fill=fontColor)
-
-    template_response = template_question.rotate(180)
-
-    # Créer un objet ImageDraw pour dessiner sur l'image
+    render_name(card, draw_question)
+    render_question(card, draw_question)
+    
+    template_response = template.rotate(180)
     draw_response = ImageDraw.Draw(template_response)
-    
-    # Texte de la réponse
-    response = text_formater.format_text(card.response)
-    _, _, w, h = draw_response.textbbox((0, 0), response, font=font_response)    
-    position_response = ((W - w) / 2, (H - h) / 4)
-    draw_response.text(position_response, response, font=font_response, fill=fontColor)
+
+    render_response(card, draw_response, [text_formater])
 
     template = template_response.rotate(180)
 
     return template
 
-def render_name(card, image, option_dict):
-    name_card = f"{card.index}.{card.name}"
-    _, _, w, h = image.textbbox((0, 0), name_card, font=option_dict['font_question'])
-    position_question = ((W - w) / 2, (H - h) / 6)
-    image.text(position_question, name_card, font=option_dict['font_question'], fill=option_dict['fontColor'])
+def render_name(card, image):
+    global OPTIONS
+    name_card = card.name
+    _, _, w, h = image.textbbox((0, 0), name_card, font=OPTIONS['font_name'])
+    position_question = ((OPTIONS['w'] - w) / 30, ((OPTIONS['h'] - h ) / 30)*29)
+    image.text(position_question, name_card, font=OPTIONS['font_name'], fill=OPTIONS['font_color'])
+
+def render_question(card, image):
+    global OPTIONS
+    # Texte de la question
+    question = f"{card.index}. {card.question}"
+    _, _, w, h = image.textbbox((0, 0), question, font=OPTIONS['font_question'])
+    position_question = ((OPTIONS['w'] - w) / 2, (OPTIONS['h'] - h) / 4)
+    image.text(position_question, question, font=OPTIONS['font_question'], fill=OPTIONS['font_color'])
+
+def render_response(card, image, list):
+    global OPTIONS
+    if isinstance(list[0], TextFormatter) :
+        response = list[0].format_text(card.response)
+    _, _, w, h = image.textbbox((0, 0), response, font=OPTIONS['font_response'])    
+    position_response = ((OPTIONS['w'] - w) / 2, (OPTIONS['h'] - h) / 4)
+    image.text(position_response, response, font=OPTIONS['font_response'], fill=OPTIONS['font_color'])
+
 
 
 def card_from_json(data: dict) -> Card:
@@ -88,7 +100,9 @@ def card_from_json(data: dict) -> Card:
     )
     return card
 
-
+def init_options(list_option):
+    global OPTIONS
+    OPTIONS = list_option
 
 def main():
     output_argparser = argparse.ArgumentParser()
